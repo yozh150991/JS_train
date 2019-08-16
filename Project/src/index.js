@@ -14,20 +14,3 @@ checkbox.addEventListener('change', function () {
    
 
 // end чекбокс
-
-
-var user1 = {
-    name: 'Max'
-};
-
-var user2 = {
-    name: 'Test'
-};
-var user = {name: 'Mttt'};
-
-function sayTest() {
-    console.log ('Hello' + user.name);
-};
-
-user.sayTest = sayTest;
-user.sayTest ()
